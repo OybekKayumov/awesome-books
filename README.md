@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 To clone this repo: You need to have git installed in your system.
 
-git clone the repo in your terminal by: "git clone https://github.com/"
+git clone the repo in your terminal by: "git clone https://github.com/OybekKayumov/awesome-books.git"
 
 cd into the folder
 
@@ -36,7 +36,7 @@ open index.html
 
 - GitHub: [@1](https://github.com/)
 - Twitter: [@1](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+- LinkedIn: [1](https://www.linkedin.com/)
 
 👤 **2**
 
@@ -48,7 +48,7 @@ open index.html
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](?).
+Feel free to check the [issues page](https://github.com/OybekKayumov/awesome-books/issues).
 
 ## Show your support
 
