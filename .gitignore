@@ -18,3 +18,5 @@ node_modules
 
 # Ignore idea
 .idea
+
+script-old.js
