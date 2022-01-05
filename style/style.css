@@ -6,21 +6,75 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: olivedrab;
+  text-align: center;
+  justify-content: center;
 }
 
-h1 {
-  font-size: 50px;
-  padding: 50px;
+.container {
+  border: 2px solid #000;
+  margin: 0.7rem 0.4rem 0 0.4rem;
+}
+
+.display-div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+  margin: 0;
+}
+
+.display-div:nth-child(odd) {
+  background-color: lightgray;
+}
+
+h2 {
+  font-size: 38px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+h2::before {
+  display: block;
+  position: relative;
+  margin-bottom: 40px;
+  content: " ";
+  background-color: #000;
+  height: 5px;
+  width: 20%;
+  top: 20%;
+  left: 40%;
 }
 
 input {
-  font-size: 24px;
-  margin-top: 20px;
-  margin-left: 50px;
+  font-size: 20px;
+  padding: 0 0.3rem;
+  border: 3px solid #000;
 }
 
-button {
-  font-size: 24px;
-  margin: 20px 50px;
+input::placeholder {
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add--btn {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: end;
+  border: 2px solid #000;
+  padding: 0 0.3rem;
+  box-shadow: 2px 2px 5px 3px #000;
+  transform: translateX(6.5rem);
+}
+
+.rmBtn {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: end;
+  border: 2px solid #000;
+  padding: 0 0.3rem;
+  box-shadow: 2px 2px 5px 3px #000;
 }

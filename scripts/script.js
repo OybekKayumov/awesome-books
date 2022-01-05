@@ -14,9 +14,8 @@ class ObjectBook {
   createElement(list) {
     let books = '';
     list.forEach((div) => {
-      books += `<article class="author-title-div">
-      <h3>${div.authorBook}</h3>
-      <h3>${div.titleBook}</h3>
+      books += `<article class="display-div">
+      <h3>'${div.authorBook}' by ${div.titleBook}</h3>
       <button class="rmBtn">Remove</button>
       </article>`;
     });
@@ -51,6 +50,8 @@ class ObjectBook {
       listBooks.push(localStorageObject);
       localStorage.setItem('storageFormData', JSON.stringify(listBooks));
       this.createElement(listBooks);
+      this.author.value = '';
+      this.title.value = '';
     });
   }
 
