@@ -55,6 +55,14 @@ class ObjectBook {
     });
   }
 
+  Clock() {
+    window.addEventListener('load', () => {
+      const DateTime = new Date();
+      this.time = DateTime;
+      document.querySelector('#timer-p').innerHTML = `Date and time: ${DateTime.toLocaleString()}`;
+    });
+  }
+
   onPageLoad() {
     if (this.booksList.length === 0) {
       if (JSON.parse(localStorage.getItem('storageFormData'))) {
@@ -69,6 +77,7 @@ const Store = new ObjectBook(inputTitle, inputAuthor);
 Store.booksList = JSON.parse(localStorage.getItem('storageFormData')) || [];
 Store.createElement(Store.booksList);
 Store.addBook();
+Store.Clock();
 
 window.addEventListener('load', () => {
   Store.onPageLoad();

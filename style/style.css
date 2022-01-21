@@ -5,10 +5,84 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   text-align: center;
   justify-content: center;
+  padding: 30px;
 }
+
+.top-header,
+.nav_links,
+ul,
+li {
+  display: flex;
+}
+
+.nav_links {
+  justify-content: space-around;
+  width: 500px;
+  border: 5px solid red;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  font-size: 26px;
+  font-weight: 700;
+  align-items: center;
+}
+
+a:hover {
+  color: #555;
+}
+
+.a-link {
+  padding-left: 10px;
+}
+
+.dots {
+  width: 130px;
+  text-decoration: none;
+  list-style: none;
+  flex-direction: row;
+}
+
+.logo {
+  margin-left: 30px;
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.line {
+  border-right: 2px solid #000;
+}
+
+.top-header,
+.book-list {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.top-header {
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+/* .date-time {
+  font-size: 20px;
+  color: #000;
+}
+
+.datetime {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: flex-end;
+} */
 
 .container {
   border: 2px solid #000;
