@@ -2,7 +2,6 @@
 
 # Awesome books
 
-
 Additional description about the project and its features.
 
 ## Built With
@@ -10,6 +9,10 @@ Additional description about the project and its features.
 - HTML
 - CSS
 - JavaScript
+
+## Live demo
+
+- [See demo](https://oybekkayumov.github.io/awesome-books/)
 
 ## Getting Started
 
@@ -33,17 +36,17 @@ open index.html
 
 ## Authors
 
-👤 **1**
+👤 **Jos Kalenda**
 
-- GitHub: [@1](https://github.com/)
-- Twitter: [@1](https://twitter.com/)
-- LinkedIn: [1](https://www.linkedin.com/)
+- GitHub: [@Jos Kalenda](https://github.com/)
+- Twitter: [@Jos Kalenda](https://twitter.com/)
+- LinkedIn: [Jos Kalenda](https://www.linkedin.com/)
 
-👤 **2**
+👤 **Oybek Kayumov**
 
-- GitHub: [@2](https://github.com/)
-- Twitter: [@2](https://twitter.com/)
-- LinkedIn: [2](https://www.linkedin.com/)
+- GitHub: [@Oybek Kayumov](https://github.com/)
+- Twitter: [@Oybek Kayumov](https://twitter.com/)
+- LinkedIn: [Oybek Kayumov](https://www.linkedin.com/)
 
 ## 🤝 Contributing
 
