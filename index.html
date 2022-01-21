@@ -16,27 +16,47 @@
           <a href="#" id="list-link">List</a>
         </li>
         <li class="line dots">
-          <a href="#" class="a-link" id="addlink">Add New</a>
+          <a href="#add" class="a-link" id="addlink">Add New</a>
         </li>
         <li class="dots">
-          <a href="#" class="a-link" id="contact-link">Contact</a>
+          <a href="#contacts" class="a-link" id="contact-link">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
-  <!-- <section class="datetime"></section> -->
-  <main>
-    <section class="container">
-    </section>
 
-    <section class="add-section">
-      <h2>Add a new book</h2>
+  <main>
+    <div id="list-title">
+      <h4>All Awesome Books</h4>
+    </div>
+    <section class="container" id="list"></section>
+
+    <section class="add-section" id="add">
+      <h2>Add a New Book</h2>
       <input type="text" name="name" placeholder="Title" required id="title-id"> <br><br>
       <input type="text" name="name" placeholder="Author" required id="author-id"> <br><br>
       <button id="btn" class="add--btn" type="button">Add</button>
     </section>
+    <div class="contact-section hidden" id="contacts">
+      <h3>Contact Information</h3>
+      <p>
+        Do you have any questions or you just want to say "Hello"? <br />
+          You can reach out to us!
+      </p>
+      <ul class="contact-info-list">
+        <li>Our e-mail: dev.oybek&jos@gmail.com</li>
+        <li>Our phone number: 005568748998</li>
+        <li>our address: Gisozi 33, Kigali City, Rwanda</li>
+      </ul>
+    </div>
   </main>
+  <footer>
+    <div class="footer">
+      <p>Copyright...</p>
+    </div>
+  </footer>
 
+  <script src="scripts/navbar.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 </html>
