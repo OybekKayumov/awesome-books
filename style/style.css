@@ -21,11 +21,10 @@ li {
 .nav_links {
   justify-content: space-around;
   width: 500px;
-  border: 5px solid red;
 }
 
 a {
-  color: #000;
+  color: rgb(238, 234, 229);
   text-decoration: none;
   list-style: none;
   font-size: 26px;
@@ -34,59 +33,68 @@ a {
 }
 
 a:hover {
-  color: #555;
+  color: rgb(148, 157, 127);
 }
 
 .a-link {
-  padding-left: 10px;
-}
-
-.dots {
-  width: 130px;
-  text-decoration: none;
-  list-style: none;
-  flex-direction: row;
+  padding: 0 20px;
 }
 
 .logo {
   margin-left: 30px;
-  color: #000;
+  color: rgb(238, 234, 229);
   font-size: 26px;
   font-weight: 700;
   align-items: center;
 }
 
 .line {
-  border-right: 2px solid #000;
+  border-right: 2px solid rgb(228, 228, 228);
 }
 
 .top-header,
 .book-list {
-  border: 2px solid #000;
   width: 100%;
+  border: 2px solid rgb(216, 215, 215);
 }
 
 .top-header {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  background-color: rgb(19, 18, 18);
 }
 
-/* .date-time {
-  font-size: 20px;
-  color: #000;
+.time-div {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 30px;
+  top: 50px;
+  background-color: rgb(19, 18, 18);
+  opacity: 0.9;
+  z-index: 10;
+  height: 1.56rem;
+  padding-bottom: 30px;
 }
 
-.datetime {
-  display: flex;
-  padding: 20px;
-  width: 100%;
-  justify-content: flex-end;
-} */
+#timer-p {
+  display: block;
+  color: #fff;
+  position: fixed;
+  padding: 4px;
+  right: -50%;
+  left: 0;
+  z-index: 5;
+}
 
 .container {
-  border: 2px solid #000;
-  margin: 0.7rem 0.4rem 0 0.4rem;
+  border: 2px solid rgb(216, 215, 215);
+  margin: 0.625rem 0.4rem 0 0.4rem;
+}
+
+.add-section {
+  display: none;
 }
 
 .display-div {
@@ -102,7 +110,15 @@ a:hover {
   background-color: lightgray;
 }
 
-h2 {
+#message {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+h2,
+h4 {
   font-size: 38px;
   text-align: center;
   justify-content: center;
@@ -110,45 +126,83 @@ h2 {
   margin-bottom: 30px;
 }
 
-h2::before {
-  display: block;
-  position: relative;
-  margin-bottom: 40px;
-  content: " ";
-  background-color: #000;
-  height: 5px;
-  width: 20%;
-  top: 20%;
-  left: 40%;
-}
-
 input {
   font-size: 20px;
-  padding: 0 0.3rem;
+  padding: 0 0.25rem;
   border: 3px solid #000;
 }
 
 input::placeholder {
-  color: #555;
+  color: #000;
   font-size: 18px;
   font-weight: bold;
 }
 
 .add--btn {
   font-size: 22px;
+  padding: 0 0.25rem;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px 3px #000;
   font-weight: bold;
   text-align: end;
-  border: 2px solid #000;
-  padding: 0 0.3rem;
-  box-shadow: 2px 2px 5px 3px #000;
-  transform: translateX(6.5rem);
+  transform: translateX(5.1rem);
 }
 
 .rmBtn {
   font-size: 22px;
+  padding: 0 0.25rem;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px 3px #000;
   font-weight: bold;
   text-align: end;
-  border: 2px solid #000;
-  padding: 0 0.3rem;
-  box-shadow: 2px 2px 5px 3px #000;
+}
+
+.contact-section {
+  display: none;
+  flex: 1 0 auto;
+  color: #555;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.contact-section h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+.contact-info-list {
+  display: block;
+  margin: 30px;
+}
+
+.contact-info-list li {
+  display: list-item;
+  list-style: none;
+}
+
+footer {
+  background-color: rgb(19, 18, 18);
+  opacity: 0.8;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid rgb(216, 215, 215);
+}
+
+.footer {
+  color: rgb(238, 234, 229);
+  text-align: start;
+  padding: 10px;
+  padding-left: 1em;
+  font-size: 22px;
+}
+
+.footer p {
+  font-size: 26px;
+  font-weight: 700;
 }
