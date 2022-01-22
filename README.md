@@ -12,7 +12,9 @@ Additional description about the project and its features.
 
 ## Live demo
 
-- [See demo](https://oybekkayumov.github.io/awesome-books/)
+This site was built using
+
+- [GitHub Pages](https://oybekkayumov.github.io/awesome-books/)
 
 ## Getting Started
 
