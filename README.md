@@ -2,7 +2,7 @@
 
 # Awesome books
 
-Additional description about the project and its features.
+Awesome book website, small online library to store books when added to the list we have implemented this using a plaint JavaScript, this is the best of it!
 
 ## Built With
 
