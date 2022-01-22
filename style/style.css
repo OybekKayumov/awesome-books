@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,11 +25,11 @@ li {
 
 a {
   color: rgb(238, 234, 229);
-  text-decoration: none;
-  list-style: none;
+  align-items: center;
   font-size: 26px;
   font-weight: 700;
-  align-items: center;
+  text-decoration: none;
+  list-style: none;
 }
 
 a:hover {
@@ -41,17 +41,17 @@ a:hover {
 }
 
 .logo {
-  margin-left: 30px;
   color: rgb(238, 234, 229);
   font-size: 26px;
   font-weight: 700;
   align-items: center;
+  margin-left: 30px;
 }
 
 .line {
-  border-right: 2px solid rgb(228, 228, 228);
   padding: 0;
   margin: 0;
+  border-right: 2px solid rgb(228, 228, 228);
 }
 
 .top-header,
@@ -61,9 +61,9 @@ a:hover {
 }
 
 .top-header {
+  height: 50px;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
   background-color: rgb(19, 18, 18);
   opacity: 0.8;
 }
@@ -83,8 +83,8 @@ a:hover {
 
 #timer-p {
   display: block;
-  color: #fff;
   position: fixed;
+  color: #fff;
   padding: 4px;
   right: -50%;
   left: 0;
@@ -104,8 +104,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding: 8px;
   width: 100%;
+  padding: 8px;
   margin: 0;
 }
 
@@ -144,21 +144,21 @@ input::placeholder {
 
 .add--btn {
   font-size: 22px;
+  font-weight: bold;
+  text-align: end;
   padding: 0 0.25rem;
   border: 2px solid #000;
   box-shadow: 2px 2px 5px 3px #000;
-  font-weight: bold;
-  text-align: end;
   transform: translateX(5.1rem);
 }
 
 .rmBtn {
   font-size: 22px;
+  font-weight: bold;
+  text-align: end;
   padding: 0 0.25rem;
   border: 2px solid #000;
   box-shadow: 2px 2px 5px 3px #000;
-  font-weight: bold;
-  text-align: end;
 }
 
 .contact-section {
@@ -167,8 +167,8 @@ input::placeholder {
   color: #555;
   font-size: 26px;
   font-weight: 700;
-  margin: 0;
   padding: 40px 0;
+  margin: 0;
 }
 
 .contact-section h3 {
@@ -188,22 +188,22 @@ input::placeholder {
 }
 
 footer {
-  background-color: rgb(19, 18, 18);
-  opacity: 0.8;
   position: fixed;
+  background-color: rgb(19, 18, 18);
   right: 0;
   left: 0;
   bottom: 0;
   width: 100%;
+  opacity: 0.8;
   border: 2px solid rgb(216, 215, 215);
 }
 
 .footer {
   color: rgb(238, 234, 229);
+  font-size: 22px;
   text-align: start;
   padding: 10px;
   padding-left: 1em;
-  font-size: 22px;
 }
 
 .footer p {
