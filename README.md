@@ -2,13 +2,19 @@
 
 # Awesome books
 
-Awesome book website, small online library to store books when added to the list we have implemented this using a plaint javascript, this is the best of it!
+Additional description about the project and its features.
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+
+## Live demo
+
+This site was built using
+
+- [GitHub Pages](https://oybekkayumov.github.io/awesome-books/)
 
 ## Getting Started
 
@@ -30,7 +36,13 @@ cd into the folder
 
 open index.html
 
-## Author
+## Authors
+
+👤 **Jos Kalenda**
+
+- GitHub: [@Jos Kalenda](https://github.com/)
+- Twitter: [@Jos Kalenda](https://twitter.com/)
+- LinkedIn: [Jos Kalenda](https://www.linkedin.com/)
 
 👤 **Oybek Kayumov**
 
